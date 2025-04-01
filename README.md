@@ -35,13 +35,13 @@ pip install bleak smpclient tqdm
 ### **Command-line Arguments**
 
 ```sh
-python firmware_uploader.py --device-name "Device_Name" --bin-file "path/to/firmware.bin"
+python dfucli.py --device-name "Device_Name" --bin-file "path/to/firmware.bin"
 ```
 
 ### **Example**
 
 ```sh
-python firmware_uploader.py --device-name "MyBLEDevice" --bin-file "firmware_v1.2.bin"
+python dfucli.py --device-name "MyBLEDevice" --bin-file "firmware_v1.2.bin"
 ```
 
 ## Code Structure
